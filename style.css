@@ -34,9 +34,10 @@ div {
   right: 10px;
 }
 
-/* Bonus: Center box */
+
 .center {
-  top: 50%;   /* push down to middle */
-  left: 50%;  /* push right to middle */
-  transform: translate(-50%, -50%); /* pull back half of its size */
+  top: 50%;   
+  left: 50%;  
+  transform: translate(-50%, -50%);
 }
+
