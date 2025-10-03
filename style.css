@@ -1,0 +1,42 @@
+body {
+  margin: 0; 
+  height: 100vh; 
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+
+div {
+  position: absolute; 
+  padding: 10px 15px;
+  background: rgba(14, 115, 145, 0.777);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.top-left {
+  top: 10px;  
+  left: 10px;  
+}
+
+.top-right {
+  top: 10px;
+  right: 10px;
+}
+
+.bottom-left {
+  bottom: 10px;
+  left: 10px;
+}
+
+.bottom-right {
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Bonus: Center box */
+.center {
+  top: 50%;   /* push down to middle */
+  left: 50%;  /* push right to middle */
+  transform: translate(-50%, -50%); /* pull back half of its size */
+}
